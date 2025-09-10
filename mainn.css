@@ -1,0 +1,228 @@
+body {
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #e2d9c8;
+    margin-top: 40px;
+}
+/* header style */
+header {
+    background-image: url(".//images/header-bg.jpg");
+    height: 400px;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-top: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.navigationlinks a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.navigationlinks li{
+    list-style: none;
+}
+.navigationlinks{
+     display: flex;
+}
+
+button {
+    border-radius: 40px;
+    width: 150px;
+    height: 40px;
+}
+
+.heading {
+    margin-top: 60px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ /* first setion style */
+.cards {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.cards img {
+    width: 80px;
+}
+/* the second section style */
+.cardss {
+    background-color: white;
+}
+
+.cardsss {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.cardss h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px 0px 0px;
+}
+
+.card {
+    margin-left: 35px;
+    margin-top: 40px;
+    border: 2px rgb(244, 234, 220) solid;
+    background-color: #e7e1d5;
+    width: 280px;
+    padding: 9px;
+    border-radius: 15px;
+}
+
+.card h3 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card img {
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box button {
+    background-color: black;
+    color: white;
+}
+/* the third section style */
+.coffee {
+    display: flex;
+   justify-content: space-between;
+}
+
+.coffee img {
+    width: 200px;
+}
+
+.content {
+    flex-direction: column;
+}
+
+.content h2 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content button {
+    background-color: black;
+    color: white;
+}
+/* the forth section style */
+ .flipcard {
+    background-color: white;
+    text-align: center;
+}
+
+.cardscontent {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.flipcard h3 {
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-size: 40px;
+}
+
+.flipcard h2 {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carrd {
+    border: 2px rgb(244, 234, 220) solid;
+    background-color: rgb(236, 233, 227);
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.imageee img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.imageee {
+    display: flex;
+} 
+/* the fifth section style */
+.coffeee {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffeee img {
+    width: 180px;
+}
+.sora{
+    transform: scaleX(-1);
+   transform: scaleY(-1);
+   transform: rotate(180deg);
+}
+
+#email {
+    border-radius: 40px;
+    width: 230px;
+    height: 40px;
+}
+/* footer style */
+footer {
+    display: flex;
+    padding: 30px;
+    background-color: #2f251b;
+   justify-content: space-evenly;
+}
+
+.logoo {
+    margin-top: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+.links2{
+    display: flex;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+}
+
+.social {
+    color: white;
+    
+}
